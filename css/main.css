@@ -1,0 +1,152 @@
+/***** BASE STYLES *****/
+* { 
+    margin:0px; 
+    padding:0px; 
+    box-sizing:border-box; 
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	margin: 0px;
+}
+
+#about, #menu, #locations, #gallery, #reviews, #contact {
+    height: 40px;
+}
+	
+/***** GRID *****/
+
+.full-width {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 620px;
+    height: 105px;
+    float: left;
+}
+
+.third-width {
+    width: 412px;
+    height: 215px;
+    border: 1px solid #dedbdc;
+    line-height: 25px;
+    padding-left: 30px;
+    padding-top: 30px;
+   	float: left;
+}
+
+/***** "Header"  and Nav section *****/
+
+
+header {
+    height: 100px;
+    width: 1240px;
+    margin-top: 20px;
+    
+}
+
+h1 {
+    
+    font-family: 'Montserrat', bold;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-left: 10px;
+    
+}
+
+h1 span {
+    color: #77a466;
+}
+
+
+/***** Inside the header: "Navigation" section *****/
+
+    nav {
+        float: right; 
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li a {
+        
+        text-decoration: none;
+        font-size: 14px;
+        color: #77a466;
+        padding-left: 10px; 
+    }
+
+/**** Main section ****/
+
+img {
+    background-image: url('../img/hero-image.png');
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+    margin-bottom: 30px;
+    width: 1200px;
+    height: 288px;
+    float: left;
+}
+
+h2 {
+    font-family: 'Montserrat', bold;
+    font-size: 18px;
+    color: #77a466;
+    padding-top: 40px;
+}
+
+/**** "Welcome" paragraph ***/
+
+#about p {
+    font-family: 'Montserrat', regular;
+    font-size: 16px;
+    color: #000000;
+    word-spacing: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 19px;
+    float: left;
+}  
+
+h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+section li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 35px;  
+    
+}
+
+/*** Menu, Reviews, Contact section ***/
+
+#menu #reviews #contact {
+    height: auto;
+}
+
+footer span {
+    font-family: 'Rouge Script', cursive;
+    font-weight: bold;
+    font-size: 26px;
+    color: #77a466;
+    text-transform: lowercase;
+
+}
+
+footer {
+    padding-top: 28px;
+    text-align: center;
+    clear: both;
+}
