@@ -44,7 +44,7 @@ body {
 
 header {
     height: 100px;
-    max-width: 100%;
+    width: 1240px;
     margin-top: 20px;
     
 }
@@ -55,7 +55,7 @@ h1 {
     font-size: 30px;
     color: #000000;
     text-transform: uppercase;
-    padding-left: 20px;
+    padding-left: 10px;
     
 }
 
@@ -71,7 +71,6 @@ h1 span {
         margin-top: 20px;
         text-transform: uppercase;
         font-weight: bold;
-        margin-right: 25px;
     }
 
     nav ul li{
@@ -121,6 +120,7 @@ h3 {
     font-weight: bold;
     text-transform: uppercase;
     color: #000000;
+    font-size: 1em;
     padding-bottom: 15px;
 }
 
@@ -133,9 +133,13 @@ section li {
 
 /*** Menu, Reviews, Contact section ***/
 
-#menu #reviews #contact {
+#menu #contact {
     height: auto;
-    padding-left: 20px;
+}
+
+#reviews p {
+    height: auto;
+    font-size: .8em;
 }
 
 footer span {
